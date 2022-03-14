@@ -1,3 +1,8 @@
+.image__group
+{
+    display: block;
+    margin: 26px auto;
+}
 .experiences__header
 {
     margin: 23px auto 16px 36px;
