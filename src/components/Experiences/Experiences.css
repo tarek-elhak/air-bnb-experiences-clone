@@ -1,0 +1,18 @@
+.experiences__header
+{
+    margin: 23px auto 16px 36px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.experiences__para
+{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 36px;
+    margin-bottom: 50px;
+    max-width: 320px;
+    color: #222;
+}
