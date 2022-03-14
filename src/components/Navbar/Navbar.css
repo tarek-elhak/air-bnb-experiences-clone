@@ -1,11 +1,12 @@
-.logo__image
-{
-    margin: 20px auto 20px 30px;
-}
 .nav__bar
 {
     box-shadow: 0 2px 7px 1px RGB(0,0,0,0.1);
     height: 70px;
     display: flex;
     align-items: center;
+}
+.logo__image
+{
+    margin: 20px auto 20px 30px;
+    max-width: 100px;
 }
