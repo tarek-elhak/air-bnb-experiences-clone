@@ -1,0 +1,77 @@
+.card
+{
+    max-width: 176px;
+    position: relative;
+}
+
+.batch
+{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    color: #222222;
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    left:6px;
+    background-color:#FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.card img:first-of-type
+{
+    width: 100%;
+}
+.stats
+{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 13px;
+    color: #222222;
+}
+.stats img:first-of-type
+{
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+
+}
+.stats .rating
+{
+    margin-right: 2px;
+}
+.stats .total__reviews
+{
+    margin-right: 4px;
+}
+.stats .location
+{
+    color: #918E9B;
+    text-transform: uppercase;
+}
+.experience__title
+{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 13px;
+    margin: 8px 0 8px;
+}
+
+.experience__salary
+{
+    margin: 0;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 300;
+}
+.experience__salary .bold
+{
+    font-weight: 600;
+}

@@ -9,3 +9,8 @@ body
 {
     box-sizing: inherit;
 }
+.experience__section
+{
+    display: flex;
+    justify-content: space-evenly;
+}
