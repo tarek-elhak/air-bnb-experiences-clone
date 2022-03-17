@@ -10,7 +10,7 @@ import "./App.css";
 export default function App()
 {
     let experiences = experiencesData.map(experience =>{
-        return <ExperienceCard ket={experience.id} experience={experience} />
+        return <ExperienceCard key={experience.id} {...experience} />
     });
     return (
         <>

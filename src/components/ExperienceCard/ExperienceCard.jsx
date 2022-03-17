@@ -4,23 +4,21 @@ import star from "../../assets/Star.png"
 
 export default function ExperienceCard(props)
 {
-    const {batch,img,rating,totalReview,location,price,title} = props.experience;
-
     return(
         <div className="card">
-            {batch !== "" ? <div className="batch">{batch}</div> : ""}
-            <img src={img} alt="katie zaferes" />
+            {props.badge && <div className="badge">{props.badge}</div>}
+            <img src={props.img} alt="katie zaferes" className="experience__image"/>
             <div className="stats">
-                <img src={star} alt="rating star"/>
-                <span className="rating">{rating}</span>
-                <span className="total__reviews">({totalReview}).</span>
-                <span className="location">{location}</span>
+                <img src={star} alt="rating star" className="experience__states__image"/>
+                <span className="rating">{props.rating}</span>
+                <span className="total__reviews">({props.totalReview}).</span>
+                <span className="location">{props.location}</span>
             </div>
             <p className="experience__title">
-                {title}
+                {props.title}
             </p>
             <p className="experience__salary">
-                <span className="bold">From {price}</span> / person
+                <span className="bold">From {props.price}</span> / person
             </p>
         </div>
     );
